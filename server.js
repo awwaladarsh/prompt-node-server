@@ -22,7 +22,7 @@ app.use(function(req, res, next) {
 var config = {
   dbServer: {
     protocol: 'http://',
-    host: 'localhost:5984',
+    host: 'http://c821a072.ngrok.io',
     user: '',
     password: '',
     userDB: 'sl-users',
